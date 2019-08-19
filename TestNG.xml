@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GooglePageTest">
+    <parameter name="DriverType" value="CHROME" />
+    <test name="GooglePageTest">
+        <classes>
+            <class name="Tests.GooglePageTest" />
+        </classes>
+    </test>
+</suite>
