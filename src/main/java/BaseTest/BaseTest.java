@@ -4,23 +4,20 @@ import Driver.DriverManager;
 import Driver.DriverManagerFactory;
 import Driver.DriverType;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 public class BaseTest {
     public DriverManager driverManager;
     public WebDriver driver;
 
-    @Test
-    public void navigateToGoogleTest() {
-        driverManager = DriverManagerFactory.getDriver(DriverType.CHROME);
+    @BeforeSuite
+    public void driverInitializer(DriverType type) {
+        driverManager = DriverManagerFactory.getDriver(type);
         driver = driverManager.getDriver();
-        driver.get("https://www.google.com");
-        Assert.assertEquals("Google", driver.getTitle());
     }
 
-    @AfterTest
+    @AfterSuite
     public void tearDown() {
         driverManager.quitDriver();
     }
