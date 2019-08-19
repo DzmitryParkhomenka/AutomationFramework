@@ -1,5 +1,7 @@
 package Driver;
 
+import Types.DriverType;
+
 public class DriverManagerFactory {
 
     public static DriverManager getDriver(DriverType type) {

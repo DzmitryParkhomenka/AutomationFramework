@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a68415c2-6187-4d12-9a35-7ff8e9fe9d75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tests/GooglePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Types/ParameterType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BaseTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseTest/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/DriverManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Driver/DriverManagerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Driver/DriverType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Types/DriverType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ChromeDriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DriverManagerFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DriverManagerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DriverType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FireFoxManager.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,16 +28,30 @@
     <favorites_list name="Train" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestNG.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tests/GooglePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BaseTest/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -34,44 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Driver/DriverManagerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Driver/ChromeDriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Driver/FireFoxManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Driver/DriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Driver/DriverType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -79,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="624">
+              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -91,6 +80,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -109,6 +99,12 @@
         <option value="$PROJECT_DIR$/src/main/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/BaseTest/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestSuites/GoogleTestSuite.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/TestSuites/GoogleTestSuite" />
+        <option value="$PROJECT_DIR$/src/main/java/Types/ParameterType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestSuites/TestNG.xml" />
+        <option value="$PROJECT_DIR$/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Tests/GooglePageTest.java" />
       </list>
     </option>
   </component>
@@ -156,76 +152,91 @@
         <subPane>
           <expand>
             <path>
-              <item name="Train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Train" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Train" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Train" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Train" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Train" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="BaseTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Train" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Driver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Train" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Train" type="462c0819:PsiDirectoryNode" />
+              <item name="AutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="Drivers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Train" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566226294184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566245791353" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Automation\AutomationFramework" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.F:/Automation/AutomationFramework/TestNG.xml">
     <configuration name="BaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Train" />
       <option name="PACKAGE_NAME" value="" />
@@ -250,8 +261,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="F:/Automation/AutomationFramework/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="F:/Automation/AutomationFramework/src/main/java/TestSuites/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/TestSuites/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GooglePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.GooglePageTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.F:/Automation/AutomationFramework/TestNG.xml" />
+        <item itemvalue="TestNG.F:/Automation/AutomationFramework/src/main/java/TestSuites/TestNG.xml" />
+        <item itemvalue="TestNG.GooglePageTest" />
         <item itemvalue="TestNG.BaseTest" />
       </list>
     </recent_temporary>
@@ -270,23 +320,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BaseTest - 2019.08.19 at 10h 38m 46s.xml">
-      <configuration name="BaseTest" configurationId="TestNG" />
+    <history-entry file="F__Automation_AutomationFramework_src_main_java_TestSuites_TestNG_xml - 2019.08.19 at 22h 38m 45s.xml">
+      <configuration name="F:/Automation/AutomationFramework/src/main/java/TestSuites/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BaseTest - 2019.08.19 at 10h 44m 42s.xml">
-      <configuration name="BaseTest" configurationId="TestNG" />
+    <history-entry file="F__Automation_AutomationFramework_src_main_java_TestSuites_TestNG_xml - 2019.08.19 at 22h 40m 06s.xml">
+      <configuration name="F:/Automation/AutomationFramework/src/main/java/TestSuites/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BaseTest - 2019.08.19 at 10h 45m 30s.xml">
-      <configuration name="BaseTest" configurationId="TestNG" />
+    <history-entry file="F__Automation_AutomationFramework_src_main_java_TestSuites_TestNG_xml - 2019.08.19 at 22h 40m 50s.xml">
+      <configuration name="F:/Automation/AutomationFramework/src/main/java/TestSuites/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BaseTest - 2019.08.19 at 10h 46m 12s.xml">
-      <configuration name="BaseTest" configurationId="TestNG" />
+    <history-entry file="F__Automation_AutomationFramework_src_main_java_TestSuites_TestNG_xml - 2019.08.19 at 22h 45m 10s.xml">
+      <configuration name="F:/Automation/AutomationFramework/src/main/java/TestSuites/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BaseTest - 2019.08.19 at 10h 47m 21s.xml">
-      <configuration name="BaseTest" configurationId="TestNG" />
+    <history-entry file="F__Automation_AutomationFramework_src_main_java_TestSuites_TestNG_xml - 2019.08.19 at 22h 49m 01s.xml">
+      <configuration name="F:/Automation/AutomationFramework/src/main/java/TestSuites/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BaseTest - 2019.08.19 at 10h 53m 15s.xml">
-      <configuration name="BaseTest" configurationId="TestNG" />
+    <history-entry file="F__Automation_AutomationFramework_TestNG_xml - 2019.08.19 at 22h 49m 32s.xml">
+      <configuration name="F:/Automation/AutomationFramework/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Automation_AutomationFramework_TestNG_xml - 2019.08.19 at 22h 49m 45s.xml">
+      <configuration name="F:/Automation/AutomationFramework/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Automation_AutomationFramework_TestNG_xml - 2019.08.19 at 22h 50m 32s.xml">
+      <configuration name="F:/Automation/AutomationFramework/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Automation_AutomationFramework_TestNG_xml - 2019.08.19 at 22h 51m 47s.xml">
+      <configuration name="F:/Automation/AutomationFramework/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Automation_AutomationFramework_TestNG_xml - 2019.08.19 at 23h 02m 58s.xml">
+      <configuration name="F:/Automation/AutomationFramework/TestNG.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -302,24 +364,24 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.1716418" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" sideWeight="0.5011111" side_tool="true" weight="0.123667374" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5011111" side_tool="true" weight="0.123667374" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -329,6 +391,18 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BaseTest/BaseTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
@@ -344,14 +418,53 @@
     <entry file="file://$PROJECT_DIR$/Train.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Driver/ChromeDriverManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestSuites/GoogleTestSuite.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#2672#2673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Driver/FireFoxManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Driver/FireFoxManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Types/DriverType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Types/ParameterType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Driver/ChromeDriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -365,35 +478,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Driver/DriverType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Driver/DriverManagerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="64">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3024" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BaseTest/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tests/GooglePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
