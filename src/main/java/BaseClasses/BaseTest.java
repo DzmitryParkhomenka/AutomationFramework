@@ -10,7 +10,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 public class BaseTest {
-    public DriverManager driverManager;
+
+    private DriverManager driverManager;
     public WebDriver driver;
 
     @BeforeSuite

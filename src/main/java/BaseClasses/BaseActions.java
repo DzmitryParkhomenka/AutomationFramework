@@ -3,6 +3,7 @@ package BaseClasses;
 import org.openqa.selenium.WebDriver;
 
 public class BaseActions {
+
     private WebDriver driver;
 
     public BaseActions(WebDriver driver) {
@@ -11,5 +12,9 @@ public class BaseActions {
 
     public void openPage(String url){
         driver.get(url);
+    }
+
+    public String getPageName(String name) {
+        return name;
     }
 }
