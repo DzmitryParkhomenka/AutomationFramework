@@ -2,9 +2,11 @@
 
 <suite name="GooglePageTest" verbose="1">
     <parameter name="DriverType" value="CHROME" />
+
     <test name="GooglePageTest">
         <classes>
             <class name="Tests.GooglePageTest" />
         </classes>
     </test>
+
 </suite>

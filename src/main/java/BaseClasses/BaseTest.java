@@ -1,4 +1,4 @@
-package BaseTest;
+package BaseClasses;
 
 import Driver.DriverManager;
 import Driver.DriverManagerFactory;

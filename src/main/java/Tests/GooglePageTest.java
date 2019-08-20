@@ -1,6 +1,6 @@
 package Tests;
 
-import BaseTest.BaseTest;
+import BaseClasses.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
