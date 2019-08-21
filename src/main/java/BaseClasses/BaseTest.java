@@ -1,7 +1,6 @@
 package BaseClasses;
 
 import Driver.DriverManager;
-import Driver.DriverManagerFactory;
 import Types.DriverType;
 import Types.ParameterType;
 import org.openqa.selenium.WebDriver;
@@ -12,13 +11,13 @@ import org.testng.annotations.Parameters;
 public class BaseTest {
 
     private DriverManager driverManager;
-    public WebDriver driver;
+    protected WebDriver driver;
 
     @BeforeSuite
     @Parameters(ParameterType.DRIVER_TYPE)
     public void driverInitializer(DriverType type) {
-        driverManager = DriverManagerFactory.getDriver(type);
-        driver = driverManager.getDriver();
+        driverManager = new DriverManager();
+        driver = driverManager.getDriver(type);
     }
 
     @AfterSuite

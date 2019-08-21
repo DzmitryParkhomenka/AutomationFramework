@@ -11,6 +11,8 @@ public class GooglePageTest extends BaseTest {
 
     private GooglePage googlePage;
 
+    private String searchKeys = "Youtube";
+
     @BeforeTest
     public void testPreconditions() {
         googlePage = new GooglePage(driver);
@@ -24,6 +26,9 @@ public class GooglePageTest extends BaseTest {
     public void googlePageTest() {
         openGooglePage();
         assertGooglePageLoaded();
+        clickIntoSearchField();
+        sendKeysToSearchField();
+        clickSearchButton();
     }
 
     private void openGooglePage() {
@@ -32,5 +37,17 @@ public class GooglePageTest extends BaseTest {
 
     private void assertGooglePageLoaded() {
         Assert.assertEquals(googlePage.getPageName(), driver.getTitle());
+    }
+
+    private void clickIntoSearchField() {
+        googlePage.clickSearchField();
+    }
+
+    private void sendKeysToSearchField() {
+        googlePage.sendKeysToSearchField(searchKeys);
+    }
+
+    private void clickSearchButton() {
+        googlePage.clickSearchButton();
     }
 }
