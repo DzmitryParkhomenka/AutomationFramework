@@ -20,7 +20,7 @@ public class DriverManager {
                 driver = createFirefoxDriver();
                 break;
             default:
-                driver = null;
+                throw new RuntimeException("Driver is not initialized");
         }
 
         return driver;
